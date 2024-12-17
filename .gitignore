@@ -1,0 +1,56 @@
+# Node.js modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+.env.production
+
+# Jest
+coverage/
+*.lcov
+
+# Debugger files
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+*.out
+
+# IDE files
+.idea/
+*.iml
+
+# Test artifacts
+*.test.db
+*.sqlite
+__tests__/fixtures/
+
+# Optional: Mac system file
+.AppleDouble
+
+# MongoDB Memory Server
+*.ldb
+.dump
